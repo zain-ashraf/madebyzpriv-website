@@ -3,145 +3,376 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>madebyzpriv — TikTok & Instagram Marketing for Small Businesses</title>
-  <meta name="description" content="madebyzpriv creates short-form video content that grows small businesses on TikTok and Instagram.">
+  <title>madebyzpriv — TikTok &amp; Instagram Marketing for Small Businesses</title>
+  <meta name="description" content="madebyzpriv creates scroll-stopping short-form video content that grows small businesses on TikTok and Instagram.">
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="madebyzpriv — Short-form content that grows small businesses">
+  <meta property="og:description" content="Scroll-stopping TikTok &amp; Instagram videos built to get your business seen — and get customers through the door.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
+  <!-- Animated gradient backdrop -->
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <!-- ============================ HEADER ============================ -->
   <header class="site-header">
     <div class="container nav">
-      <a href="#" class="logo">madebyzpriv</a>
-      <nav>
+      <a href="#top" class="logo">made<span>by</span>zpriv</a>
+      <nav class="nav-links">
         <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
         <a href="#about">About</a>
-        <a href="#contact">Contact</a>
       </nav>
+      <a href="#contact" class="btn btn-sm">Work with me</a>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h1>Short-form content that grows small businesses.</h1>
-      <p class="subhead">TikTok &amp; Instagram videos built to get your business seen — and get customers through the door.</p>
-      <a href="#work" class="btn">See the work</a>
-    </div>
-  </section>
+  <main id="top">
 
-  <section id="work" class="work">
-    <div class="container">
+    <!-- ============================ HERO ============================ -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <span class="eyebrow">TikTok &amp; Instagram growth studio</span>
+        <h1>
+          Short-form content that
+          <span class="grad-text">actually grows</span>
+          your business.
+        </h1>
+        <p class="subhead">
+          I help small businesses go from invisible to <em>impossible to scroll past</em> —
+          with scroll-stopping TikToks and Reels built to get views, followers, and paying customers.
+        </p>
+        <div class="hero-cta">
+          <a href="#work" class="btn">See the work</a>
+          <a href="#contact" class="btn btn-ghost">Let's talk →</a>
+        </div>
 
-      <h2>TikTok</h2>
-      <div class="video-grid">
-
-        <!-- ============================================
-             TIKTOK VIDEO CARD — copy/paste this block to add more
-             1. Drop your file in videos/tiktok/
-             2. Set src="videos/tiktok/your-file.mp4"
-             3. Set poster="assets/img/your-thumb.jpg" (optional cover image)
-             4. Update the title, client/niche tag, and views count
-             ============================================ -->
-        <article class="video-card">
-          <video controls preload="metadata" poster="assets/img/tiktok-1-thumb.jpg">
-            <source src="videos/tiktok/tiktok-1.mp4" type="video/mp4">
-          </video>
-          <div class="video-info">
-            <h3>Video title goes here</h3>
-            <p class="tag">Client / niche, e.g. Coffee shop</p>
-            <p class="views"><span class="views-count">0</span> views</p>
+        <!-- Quick proof stats -->
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">10M+</span>
+            <span class="stat-label">Views generated</span>
           </div>
-        </article>
-
-        <article class="video-card">
-          <video controls preload="metadata" poster="assets/img/tiktok-2-thumb.jpg">
-            <source src="videos/tiktok/tiktok-2.mp4" type="video/mp4">
-          </video>
-          <div class="video-info">
-            <h3>Video title goes here</h3>
-            <p class="tag">Client / niche, e.g. Nail salon</p>
-            <p class="views"><span class="views-count">0</span> views</p>
+          <div class="stat">
+            <span class="stat-num">30+</span>
+            <span class="stat-label">Small businesses</span>
           </div>
-        </article>
-
-        <article class="video-card">
-          <video controls preload="metadata" poster="assets/img/tiktok-3-thumb.jpg">
-            <source src="videos/tiktok/tiktok-3.mp4" type="video/mp4">
-          </video>
-          <div class="video-info">
-            <h3>Video title goes here</h3>
-            <p class="tag">Client / niche, e.g. Boutique gym</p>
-            <p class="views"><span class="views-count">0</span> views</p>
+          <div class="stat">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Platforms mastered</span>
           </div>
-        </article>
-        <!-- END TIKTOK VIDEO CARD -->
-
+        </div>
       </div>
+    </section>
 
-      <h2>Instagram</h2>
-      <div class="video-grid">
-
-        <!-- ============================================
-             INSTAGRAM VIDEO CARD — copy/paste this block to add more
-             1. Drop your file in videos/instagram/
-             2. Set src="videos/instagram/your-file.mp4"
-             3. Set poster="assets/img/your-thumb.jpg" (optional cover image)
-             4. Update the title, client/niche tag, and views count
-             ============================================ -->
-        <article class="video-card">
-          <video controls preload="metadata" poster="assets/img/instagram-1-thumb.jpg">
-            <source src="videos/instagram/instagram-1.mp4" type="video/mp4">
-          </video>
-          <div class="video-info">
-            <h3>Video title goes here</h3>
-            <p class="tag">Client / niche, e.g. Restaurant</p>
-            <p class="views"><span class="views-count">0</span> views</p>
-          </div>
-        </article>
-
-        <article class="video-card">
-          <video controls preload="metadata" poster="assets/img/instagram-2-thumb.jpg">
-            <source src="videos/instagram/instagram-2.mp4" type="video/mp4">
-          </video>
-          <div class="video-info">
-            <h3>Video title goes here</h3>
-            <p class="tag">Client / niche, e.g. Skincare brand</p>
-            <p class="views"><span class="views-count">0</span> views</p>
-          </div>
-        </article>
-
-        <article class="video-card">
-          <video controls preload="metadata" poster="assets/img/instagram-3-thumb.jpg">
-            <source src="videos/instagram/instagram-3.mp4" type="video/mp4">
-          </video>
-          <div class="video-info">
-            <h3>Video title goes here</h3>
-            <p class="tag">Client / niche, e.g. Clothing store</p>
-            <p class="views"><span class="views-count">0</span> views</p>
-          </div>
-        </article>
-        <!-- END INSTAGRAM VIDEO CARD -->
-
+    <!-- ============================ MARQUEE ============================ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Coffee shops</span><span>•</span>
+        <span>Nail salons</span><span>•</span>
+        <span>Boutique gyms</span><span>•</span>
+        <span>Restaurants</span><span>•</span>
+        <span>Skincare brands</span><span>•</span>
+        <span>Clothing stores</span><span>•</span>
+        <span>Local services</span><span>•</span>
+        <!-- duplicate for seamless loop -->
+        <span>Coffee shops</span><span>•</span>
+        <span>Nail salons</span><span>•</span>
+        <span>Boutique gyms</span><span>•</span>
+        <span>Restaurants</span><span>•</span>
+        <span>Skincare brands</span><span>•</span>
+        <span>Clothing stores</span><span>•</span>
+        <span>Local services</span><span>•</span>
       </div>
     </div>
-  </section>
 
-  <section id="about" class="about">
-    <div class="container">
-      <h2>About</h2>
-      <p>madebyzpriv specializes in short-form video marketing for small businesses on TikTok and Instagram. From content strategy to filming and editing, every video is built to get real views and turn them into real customers.</p>
-    </div>
-  </section>
+    <!-- ============================ WORK ============================ -->
+    <section id="work" class="section work">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">The work</span>
+          <h2>Videos that <span class="grad-text">popped off</span></h2>
+          <p class="section-sub">Real content for real small businesses — with the view counts to match.</p>
+        </div>
 
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Let's grow your business</h2>
-      <p>Email <a href="mailto:hello@madebyzpriv.com">hello@madebyzpriv.com</a> to get started.</p>
-    </div>
-  </section>
+        <!-- ---------------- TikTok ---------------- -->
+        <div class="platform-head">
+          <span class="platform-badge tiktok">TikTok</span>
+        </div>
+        <div class="video-grid">
 
+          <!-- ============================================
+               TIKTOK VIDEO CARD — copy/paste this block to add more
+               1. Drop your file in videos/tiktok/
+               2. Set src="videos/tiktok/your-file.mp4"
+               3. Set poster="assets/img/your-thumb.jpg" (optional cover image)
+               4. Update the title, client/niche tag, and views count
+               ============================================ -->
+          <article class="video-card">
+            <div class="video-wrap">
+              <video controls preload="metadata" poster="assets/img/tiktok-1-thumb.jpg">
+                <source src="videos/tiktok/tiktok-1.mp4" type="video/mp4">
+              </video>
+              <span class="views-badge">▶ <span class="views-count">0</span> views</span>
+            </div>
+            <div class="video-info">
+              <h3>Video title goes here</h3>
+              <p class="tag">Client / niche, e.g. Coffee shop</p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-wrap">
+              <video controls preload="metadata" poster="assets/img/tiktok-2-thumb.jpg">
+                <source src="videos/tiktok/tiktok-2.mp4" type="video/mp4">
+              </video>
+              <span class="views-badge">▶ <span class="views-count">0</span> views</span>
+            </div>
+            <div class="video-info">
+              <h3>Video title goes here</h3>
+              <p class="tag">Client / niche, e.g. Nail salon</p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-wrap">
+              <video controls preload="metadata" poster="assets/img/tiktok-3-thumb.jpg">
+                <source src="videos/tiktok/tiktok-3.mp4" type="video/mp4">
+              </video>
+              <span class="views-badge">▶ <span class="views-count">0</span> views</span>
+            </div>
+            <div class="video-info">
+              <h3>Video title goes here</h3>
+              <p class="tag">Client / niche, e.g. Boutique gym</p>
+            </div>
+          </article>
+          <!-- END TIKTOK VIDEO CARD -->
+
+        </div>
+
+        <!-- ---------------- Instagram ---------------- -->
+        <div class="platform-head">
+          <span class="platform-badge instagram">Instagram</span>
+        </div>
+        <div class="video-grid">
+
+          <!-- ============================================
+               INSTAGRAM VIDEO CARD — copy/paste this block to add more
+               1. Drop your file in videos/instagram/
+               2. Set src="videos/instagram/your-file.mp4"
+               3. Set poster="assets/img/your-thumb.jpg" (optional cover image)
+               4. Update the title, client/niche tag, and views count
+               ============================================ -->
+          <article class="video-card">
+            <div class="video-wrap">
+              <video controls preload="metadata" poster="assets/img/instagram-1-thumb.jpg">
+                <source src="videos/instagram/instagram-1.mp4" type="video/mp4">
+              </video>
+              <span class="views-badge">▶ <span class="views-count">0</span> views</span>
+            </div>
+            <div class="video-info">
+              <h3>Video title goes here</h3>
+              <p class="tag">Client / niche, e.g. Restaurant</p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-wrap">
+              <video controls preload="metadata" poster="assets/img/instagram-2-thumb.jpg">
+                <source src="videos/instagram/instagram-2.mp4" type="video/mp4">
+              </video>
+              <span class="views-badge">▶ <span class="views-count">0</span> views</span>
+            </div>
+            <div class="video-info">
+              <h3>Video title goes here</h3>
+              <p class="tag">Client / niche, e.g. Skincare brand</p>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <div class="video-wrap">
+              <video controls preload="metadata" poster="assets/img/instagram-3-thumb.jpg">
+                <source src="videos/instagram/instagram-3.mp4" type="video/mp4">
+              </video>
+              <span class="views-badge">▶ <span class="views-count">0</span> views</span>
+            </div>
+            <div class="video-info">
+              <h3>Video title goes here</h3>
+              <p class="tag">Client / niche, e.g. Clothing store</p>
+            </div>
+          </article>
+          <!-- END INSTAGRAM VIDEO CARD -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ SERVICES ============================ -->
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What I do</span>
+          <h2>Everything you need to <span class="grad-text">go viral</span></h2>
+          <p class="section-sub">Done-for-you short-form content, from the first idea to the final post.</p>
+        </div>
+
+        <div class="card-grid">
+          <div class="feature-card">
+            <span class="feature-icon">🎯</span>
+            <h3>Content Strategy</h3>
+            <p>Hooks, trends, and a posting plan tailored to your business and audience — so every video has a job to do.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">🎬</span>
+            <h3>Filming &amp; Editing</h3>
+            <p>Scroll-stopping edits with punchy pacing, captions, and trending audio that keep people watching to the end.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">📈</span>
+            <h3>Growth &amp; Reach</h3>
+            <p>Optimized for the algorithm on TikTok and Instagram to turn views into followers — and followers into customers.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">💬</span>
+            <h3>Community &amp; Trends</h3>
+            <p>Staying on top of what's trending so your brand always feels current, relevant, and part of the conversation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ PROCESS ============================ -->
+    <section id="process" class="section process">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">The process</span>
+          <h2>Simple, <span class="grad-text">stress-free</span>, scroll-stopping</h2>
+          <p class="section-sub">You run your business. I handle the content.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">01</span>
+            <h3>Discovery</h3>
+            <p>We hop on a quick call to talk goals, vibe, and what makes your business special.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">02</span>
+            <h3>Strategy</h3>
+            <p>I map out content ideas, hooks, and a posting plan built around your audience.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">03</span>
+            <h3>Create</h3>
+            <p>Filming and editing scroll-stopping videos designed to perform — handled for you.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">04</span>
+            <h3>Grow</h3>
+            <p>We post, track what works, and double down on the content that brings results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ TESTIMONIALS ============================ -->
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Kind words</span>
+          <h2>Businesses <span class="grad-text">love</span> the results</h2>
+        </div>
+
+        <div class="card-grid">
+          <!-- TESTIMONIAL — duplicate this block to add more -->
+          <blockquote class="quote-card">
+            <p>"Add a real client quote here about how the content boosted their views, foot traffic, or sales."</p>
+            <footer><span class="quote-name">Client Name</span><span class="quote-role">Business / niche</span></footer>
+          </blockquote>
+
+          <blockquote class="quote-card">
+            <p>"Add a real client quote here about how the content boosted their views, foot traffic, or sales."</p>
+            <footer><span class="quote-name">Client Name</span><span class="quote-role">Business / niche</span></footer>
+          </blockquote>
+
+          <blockquote class="quote-card">
+            <p>"Add a real client quote here about how the content boosted their views, foot traffic, or sales."</p>
+            <footer><span class="quote-name">Client Name</span><span class="quote-role">Business / niche</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ ABOUT ============================ -->
+    <section id="about" class="section about">
+      <div class="container about-inner">
+        <div class="about-text">
+          <span class="eyebrow">About</span>
+          <h2>Hey, I'm <span class="grad-text">zpriv</span> 👋</h2>
+          <p>
+            I'm a content creator obsessed with short-form video. I help small businesses on
+            TikTok and Instagram cut through the noise with content that feels native, looks
+            premium, and actually gets results.
+          </p>
+          <p>
+            From content strategy to filming and editing, every video is built to get real views
+            and turn them into real customers. No fluff, no vanity metrics — just content that
+            grows your business.
+          </p>
+          <a href="#contact" class="btn">Let's create together</a>
+        </div>
+        <!-- Drop a photo of yourself at assets/img/about.jpg to replace this -->
+        <div class="about-photo">
+          <div class="photo-placeholder">
+            <img src="assets/img/about.jpg" alt="Portrait of zpriv" onerror="this.style.display='none'">
+            <span class="photo-fallback">Drop your photo at<br><code>assets/img/about.jpg</code></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ CTA / CONTACT ============================ -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="cta-card">
+          <span class="eyebrow">Let's grow your business</span>
+          <h2>Ready to be <span class="grad-text">impossible to scroll past?</span></h2>
+          <p>Tell me about your business and let's make some content that pops off.</p>
+          <div class="hero-cta">
+            <a href="mailto:hello@madebyzpriv.com" class="btn">hello@madebyzpriv.com</a>
+            <a href="https://www.tiktok.com/@madebyzpriv" class="btn btn-ghost" target="_blank" rel="noopener">TikTok →</a>
+            <a href="https://www.instagram.com/madebyzpriv" class="btn btn-ghost" target="_blank" rel="noopener">Instagram →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 madebyzpriv. All rights reserved.</p>
+    <div class="container footer-inner">
+      <a href="#top" class="logo">made<span>by</span>zpriv</a>
+      <div class="footer-links">
+        <a href="https://www.tiktok.com/@madebyzpriv" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.instagram.com/madebyzpriv" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:hello@madebyzpriv.com">Email</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 madebyzpriv. All rights reserved.</p>
     </div>
   </footer>
 

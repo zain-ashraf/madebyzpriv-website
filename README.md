@@ -22,7 +22,17 @@ videos/instagram/       drop Instagram video files here
    - `poster="assets/img/tiktok-4-thumb.jpg"` — path to the cover image (or remove the `poster` attribute to skip it)
    - `<h3>` — video title
    - `.tag` — client or niche, e.g. "Coffee shop"
-   - `.views-count` — the view count number
+   - `.views-count` — the view count number (this shows in the badge over the video)
+
+## Other things you can fill in
+
+All of these live in `index.html`:
+
+- **Hero stats** — the `10M+`, `30+`, `2` numbers in the `.hero-stats` block. Update `.stat-num` / `.stat-label`.
+- **About photo** — drop a photo at `assets/img/about.jpg` and it appears automatically. No file = a styled placeholder shows instead.
+- **Testimonials** — copy a `<blockquote class="quote-card">` block to add more client quotes. Fill in the quote, `.quote-name`, and `.quote-role`.
+- **Social links / email** — update the TikTok, Instagram, and `mailto:` links in the contact section and footer (search for `madebyzpriv` / `hello@madebyzpriv.com`).
+- **Marquee** — the scrolling niche list near the top is in the `.marquee` block. Keep both copies in sync so the loop stays seamless.
 
 ## Deploying
 
