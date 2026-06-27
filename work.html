@@ -1,264 +1,261 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Work | madebyzpriv</title>
-    <meta
-      name="description"
-      content="A portfolio of short-form TikTok and Instagram video by madebyzpriv."
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work | madebyzpriv</title>
+  <meta name="description" content="A portfolio of short-form video by madebyzpriv, personal and client work, with combined TikTok and Instagram view counts.">
 
-    <!-- Open Graph / social preview -->
-    <meta property="og:title" content="Work | madebyzpriv" />
-    <meta
-      property="og:description"
-      content="TikTok and Instagram videos, with the view counts to match."
-    />
-    <meta property="og:type" content="website" />
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Work | madebyzpriv">
+  <meta property="og:description" content="Short-form videos with combined TikTok and Instagram view counts.">
+  <meta property="og:type" content="website">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <!-- ============================ HEADER ============================ -->
-    <header class="site-header">
-      <div class="container nav">
-        <a href="index.html" class="logo">made<span>by</span>zpriv</a>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-        <!-- Pure-CSS mobile menu toggle (no JS) -->
-        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
-        <label for="nav-toggle" class="nav-burger" aria-label="Toggle menu">
-          <span></span><span></span><span></span>
-        </label>
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo">made<span>by</span>zpriv</a>
 
-        <nav class="nav-links">
-          <a href="index.html">Home</a>
-          <a href="work.html" class="active">Work</a>
-          <a href="about.html">About</a>
-          <a href="work-with-me.html" class="mobile-cta">Work with me</a>
-        </nav>
+      <!-- Pure-CSS mobile menu toggle (no JS) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+      <label for="nav-toggle" class="nav-burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
 
-        <a href="work-with-me.html" class="btn btn-sm desktop-cta"
-          >Work with me</a
-        >
-      </div>
-    </header>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="work.html" class="active">Work</a>
+        <a href="about.html">About</a>
+        <a href="work-with-me.html" class="mobile-cta">Work with me</a>
+      </nav>
 
-    <main id="top">
-      <!-- ============================ WORK ============================ -->
-      <section id="work" class="section">
-        <div class="container">
-          <div class="section-head">
-            <span class="eyebrow">The work</span>
-            <h2>My recent work</h2>
-            <p class="section-sub">
-              A few favorites, with the view counts to match.
-            </p>
+      <a href="work-with-me.html" class="btn btn-sm desktop-cta">Work with me</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============================ WORK ============================ -->
+    <section id="work" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">The work</span>
+          <h2>My recent work</h2>
+          <p class="section-sub">View counts are combined across TikTok and Instagram.</p>
+        </div>
+
+        <!-- ============================================
+             CSS-ONLY TABS (no JS). The two radios drive which
+             panel shows. "Personal" is checked by default.
+             ============================================ -->
+        <input type="radio" name="worktab" id="tab-personal" class="tab-input" checked>
+        <input type="radio" name="worktab" id="tab-client" class="tab-input">
+
+        <div class="tabs-wrap">
+          <div class="tabs">
+            <label for="tab-personal" class="tab">Personal</label>
+            <label for="tab-client" class="tab">Client work</label>
           </div>
+        </div>
 
-          <!-- ---------------- TikTok ---------------- -->
-          <div class="platform-head">
-            <span class="platform-badge tiktok">TikTok</span>
-          </div>
+        <!-- ===================== PERSONAL PANEL ===================== -->
+        <div class="panel panel-personal">
           <div class="video-grid">
+
             <!-- ============================================
-               TIKTOK VIDEO CARD: copy/paste this block to add more
-               1. Drop your file in videos/tiktok/
-               2. Set src="videos/tiktok/your-file.mp4"
-               3. Set poster="assets/img/your-thumb.jpg" (optional cover image)
-               4. Update the title, niche tag, and views count
-               ============================================ -->
+                 PERSONAL VIDEO CARD: copy/paste to add more
+                 1. Drop your file in videos/ (e.g. videos/tiktok/your-file.mp4)
+                 2. Set src="..." to that file
+                 3. Set poster="assets/img/your-thumb.jpg" (optional cover image)
+                 4. Update the title, niche tag, and combined views count
+                    (add the TikTok + Instagram views together)
+                 ============================================ -->
             <article class="video-card">
               <div class="video-wrap">
-                <video
-                  controls
-                  preload="metadata"
-                  poster="assets/img/tiktok-1-thumb.jpg"
-                >
-                  <source src="videos/tiktok/tiktok-1.mp4" type="video/mp4" />
+                <video controls preload="metadata" poster="assets/img/video-1-thumb.jpg">
+                  <source src="videos/tiktok/video-1.mp4" type="video/mp4">
                 </video>
-                <span class="views-badge"
-                  >▶ <span class="views-count">0</span> views</span
-                >
+                <span class="views-badge">▶ <span class="views-count">0</span> views</span>
               </div>
               <div class="video-info">
                 <h3>Video title goes here</h3>
-                <p class="tag">Client / niche, e.g. Coffee shop</p>
+                <p class="tag">Niche, e.g. Cars</p>
+                <span class="combined">TikTok + Instagram</span>
               </div>
             </article>
 
             <article class="video-card">
               <div class="video-wrap">
-                <video
-                  controls
-                  preload="metadata"
-                  poster="assets/img/tiktok-2-thumb.jpg"
-                >
-                  <source src="videos/tiktok/tiktok-2.mp4" type="video/mp4" />
+                <video controls preload="metadata" poster="assets/img/video-2-thumb.jpg">
+                  <source src="videos/tiktok/video-2.mp4" type="video/mp4">
                 </video>
-                <span class="views-badge"
-                  >▶ <span class="views-count">0</span> views</span
-                >
+                <span class="views-badge">▶ <span class="views-count">0</span> views</span>
               </div>
               <div class="video-info">
                 <h3>Video title goes here</h3>
-                <p class="tag">Client / niche, e.g. Nail salon</p>
+                <p class="tag">Niche, e.g. Coffee</p>
+                <span class="combined">TikTok + Instagram</span>
               </div>
             </article>
 
             <article class="video-card">
               <div class="video-wrap">
-                <video
-                  controls
-                  preload="metadata"
-                  poster="assets/img/tiktok-3-thumb.jpg"
-                >
-                  <source src="videos/tiktok/tiktok-3.mp4" type="video/mp4" />
+                <video controls preload="metadata" poster="assets/img/video-3-thumb.jpg">
+                  <source src="videos/tiktok/video-3.mp4" type="video/mp4">
                 </video>
-                <span class="views-badge"
-                  >▶ <span class="views-count">0</span> views</span
-                >
+                <span class="views-badge">▶ <span class="views-count">0</span> views</span>
               </div>
               <div class="video-info">
                 <h3>Video title goes here</h3>
-                <p class="tag">Client / niche, e.g. Boutique gym</p>
+                <p class="tag">Niche, e.g. Food</p>
+                <span class="combined">TikTok + Instagram</span>
               </div>
             </article>
-            <!-- END TIKTOK VIDEO CARD -->
+
+            <article class="video-card">
+              <div class="video-wrap">
+                <video controls preload="metadata" poster="assets/img/video-4-thumb.jpg">
+                  <source src="videos/tiktok/video-4.mp4" type="video/mp4">
+                </video>
+                <span class="views-badge">▶ <span class="views-count">0</span> views</span>
+              </div>
+              <div class="video-info">
+                <h3>Video title goes here</h3>
+                <p class="tag">Niche, e.g. Cars</p>
+                <span class="combined">TikTok + Instagram</span>
+              </div>
+            </article>
+
+            <article class="video-card">
+              <div class="video-wrap">
+                <video controls preload="metadata" poster="assets/img/video-5-thumb.jpg">
+                  <source src="videos/tiktok/video-5.mp4" type="video/mp4">
+                </video>
+                <span class="views-badge">▶ <span class="views-count">0</span> views</span>
+              </div>
+              <div class="video-info">
+                <h3>Video title goes here</h3>
+                <p class="tag">Niche, e.g. Coffee</p>
+                <span class="combined">TikTok + Instagram</span>
+              </div>
+            </article>
+
+            <article class="video-card">
+              <div class="video-wrap">
+                <video controls preload="metadata" poster="assets/img/video-6-thumb.jpg">
+                  <source src="videos/tiktok/video-6.mp4" type="video/mp4">
+                </video>
+                <span class="views-badge">▶ <span class="views-count">0</span> views</span>
+              </div>
+              <div class="video-info">
+                <h3>Video title goes here</h3>
+                <p class="tag">Niche, e.g. Food</p>
+                <span class="combined">TikTok + Instagram</span>
+              </div>
+            </article>
+
           </div>
+        </div>
+        <!-- ===================== END PERSONAL PANEL ===================== -->
 
-          <!-- ---------------- Instagram ---------------- -->
-          <div class="platform-head">
-            <span class="platform-badge instagram">Instagram</span>
-          </div>
+        <!-- ===================== CLIENT PANEL ===================== -->
+        <div class="panel panel-client">
           <div class="video-grid">
+
             <!-- ============================================
-               INSTAGRAM VIDEO CARD: copy/paste this block to add more
-               1. Drop your file in videos/instagram/
-               2. Set src="videos/instagram/your-file.mp4"
-               3. Set poster="assets/img/your-thumb.jpg" (optional cover image)
-               4. Update the title, niche tag, and views count
-               ============================================ -->
+                 CLIENT VIDEO CARD: copy/paste to add more
+                 Same steps as personal, but name files client-*
+                 and update the title to the client name / niche.
+                 ============================================ -->
             <article class="video-card">
               <div class="video-wrap">
-                <video
-                  controls
-                  preload="metadata"
-                  poster="assets/img/instagram-1-thumb.jpg"
-                >
-                  <source
-                    src="videos/instagram/instagram-1.mp4"
-                    type="video/mp4"
-                  />
+                <video controls preload="metadata" poster="assets/img/client-1-thumb.jpg">
+                  <source src="videos/tiktok/client-1.mp4" type="video/mp4">
                 </video>
-                <span class="views-badge"
-                  >▶ <span class="views-count">0</span> views</span
-                >
+                <span class="views-badge">▶ <span class="views-count">0</span> views</span>
               </div>
               <div class="video-info">
                 <h3>Video title goes here</h3>
-                <p class="tag">Client / niche, e.g. Restaurant</p>
+                <p class="tag">Client name / niche</p>
+                <span class="combined">TikTok + Instagram</span>
               </div>
             </article>
 
             <article class="video-card">
               <div class="video-wrap">
-                <video
-                  controls
-                  preload="metadata"
-                  poster="assets/img/instagram-2-thumb.jpg"
-                >
-                  <source
-                    src="videos/instagram/instagram-2.mp4"
-                    type="video/mp4"
-                  />
+                <video controls preload="metadata" poster="assets/img/client-2-thumb.jpg">
+                  <source src="videos/tiktok/client-2.mp4" type="video/mp4">
                 </video>
-                <span class="views-badge"
-                  >▶ <span class="views-count">0</span> views</span
-                >
+                <span class="views-badge">▶ <span class="views-count">0</span> views</span>
               </div>
               <div class="video-info">
                 <h3>Video title goes here</h3>
-                <p class="tag">Client / niche, e.g. Skincare brand</p>
+                <p class="tag">Client name / niche</p>
+                <span class="combined">TikTok + Instagram</span>
               </div>
             </article>
 
             <article class="video-card">
               <div class="video-wrap">
-                <video
-                  controls
-                  preload="metadata"
-                  poster="assets/img/instagram-3-thumb.jpg"
-                >
-                  <source
-                    src="videos/instagram/instagram-3.mp4"
-                    type="video/mp4"
-                  />
+                <video controls preload="metadata" poster="assets/img/client-3-thumb.jpg">
+                  <source src="videos/tiktok/client-3.mp4" type="video/mp4">
                 </video>
-                <span class="views-badge"
-                  >▶ <span class="views-count">0</span> views</span
-                >
+                <span class="views-badge">▶ <span class="views-count">0</span> views</span>
               </div>
               <div class="video-info">
                 <h3>Video title goes here</h3>
-                <p class="tag">Client / niche, e.g. Clothing store</p>
+                <p class="tag">Client name / niche</p>
+                <span class="combined">TikTok + Instagram</span>
               </div>
             </article>
-            <!-- END INSTAGRAM VIDEO CARD -->
+
           </div>
         </div>
-      </section>
+        <!-- ===================== END CLIENT PANEL ===================== -->
 
-      <!-- ============================ CTA ============================ -->
-      <section class="section contact alt">
-        <div class="container">
-          <div class="cta-card">
-            <span class="eyebrow">Like what you see?</span>
-            <h2>Let's make something for your brand.</h2>
-            <p>
-              Tell me about your business and let's create content that
-              performs.
-            </p>
-            <div class="hero-cta">
-              <a href="work-with-me.html" class="btn">Work with me</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- ============================ FOOTER ============================ -->
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <a href="index.html" class="logo">made<span>by</span>zpriv</a>
-        <div class="footer-links">
-          <a href="work.html">Work</a>
-          <a href="about.html">About</a>
-          <a href="work-with-me.html">Work with me</a>
-          <a
-            href="https://www.tiktok.com/@madebyzpriv"
-            target="_blank"
-            rel="noopener"
-            >TikTok</a
-          >
-          <a
-            href="https://www.instagram.com/madebyzpriv"
-            target="_blank"
-            rel="noopener"
-            >Instagram</a
-          >
-          <a href="mailto:madebyzpriv@gmail.com">Email</a>
-        </div>
-        <p class="footer-copy">&copy; 2026 madebyzpriv. All rights reserved.</p>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <!-- ============================ CTA ============================ -->
+    <section class="section contact alt">
+      <div class="container">
+        <div class="cta-card">
+          <span class="eyebrow">Like what you see?</span>
+          <h2>Let's make something for your brand.</h2>
+          <p>Tell me about your business and let's create content that performs.</p>
+          <div class="hero-cta">
+            <a href="work-with-me.html" class="btn">Work with me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="logo">made<span>by</span>zpriv</a>
+      <div class="footer-links">
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="work-with-me.html">Work with me</a>
+        <a href="https://www.tiktok.com/@madebyzpriv" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.instagram.com/madebyzpriv" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:madebyzpriv@gmail.com">Email</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 madebyzpriv. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
 </html>
